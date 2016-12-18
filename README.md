@@ -12,6 +12,7 @@ This repository contains the test client.
 The client contains two packages:
   - The model imported from the server with _wsimport_
   - The main class which test all the functionalities of the server
+The repository contains also the log file generated using the server
 
 ## How to run the code
 
