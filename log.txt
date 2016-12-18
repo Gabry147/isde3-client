@@ -1,0 +1,21 @@
+Try to reach the resources at: http://isde3-scarton.herokuapp.com/ws/people?wsdl
+Performed req #01 readPersonList(). Person in the db: 0
+Performed req #04 createPerson(p). New person created with ID: 1
+Performed req #04 createPerson(p). New person created with ID: 2
+Performed req #01 readPersonList(). Person in the db: 2
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 4 and type: height
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 5 and type: height
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 7 and type: weight
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 9 and type: steps
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 10 and type: height
+Performed req #09 savePersonMeasure(id, m) on person with ID: 1. Measure saved with ID: 11 and type: height
+Performed req #07 readMeasureTypes(). In the db there are 3 types of measures
+Performed req #06 readMeasureHistory(id, 'height'). Person with ID: 1 has 4 measure of type height
+Performed req #02 readPerson(id). Received a person with ID: 1 and lastname ISDE3
+Performed req #03 updatePerson(p). Modified the lastname of person with ID: 1
+Performed req #02 readPerson(id). Received a person with ID: 1 and lastname updated_lastname
+Performed req #08 readPersonMeasure(id, 'height', mid). Measure with ID: 4 has value: 171
+Performed req #09 updateMeasure(id, m). Measure with ID: 1 has a new value
+Performed req #08 readPersonMeasure(id, 'height', mid). Measure with ID: 4 has value: 167
+Performed req #05 deletePerson(id) on the 2 instances of Person created
+Performed req #01 readPersonList(). Person in the db: 0
